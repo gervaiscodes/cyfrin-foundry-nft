@@ -5,7 +5,7 @@ import {ERC721} from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import {Base64} from "@openzeppelin/contracts/utils/Base64.sol";
 
 contract MoodNft is ERC721 {
-    error MoodNft__CantFlipMoodIfNotOwner;
+    error MoodNft__CantFlipMoodIfNotOwner();
 
     uint256 private s_tokenCounter;
     string private s_sadSvgImageUri;
