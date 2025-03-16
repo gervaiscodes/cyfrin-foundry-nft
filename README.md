@@ -1,5 +1,7 @@
 # Foundry NFT
 
+![Tests badge](https://github.com/gervaiscodes/cyfrin-foundry-nft/actions/workflows/test.yml/badge.svg)
+
 ## Overview
 Foundry NFT is a Solidity-based smart contract project designed to manage the creation, deployment, and interaction of NFTs using Foundry as the testing and development framework. The project includes multiple Solidity contracts, integration tests, and deployment scripts.
 
