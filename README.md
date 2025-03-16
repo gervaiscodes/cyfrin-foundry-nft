@@ -9,12 +9,10 @@ Foundry NFT is a Solidity-based smart contract project designed to manage the cr
 ├── src/
 │   ├── BasicNft.sol            # Basic NFT contract implementation
 │   ├── MoodNft.sol             # Mood-based NFT contract
-│   ├── Counter.sol             # Example counter contract
 ├── script/
 │   ├── DeployBasicNft.s.sol    # Deployment script for Basic NFT
 │   ├── DeployMoodNft.s.sol     # Deployment script for Mood NFT
 │   ├── Interactions.s.sol      # Script to interact with deployed contracts
-│   ├── Counter.s.sol           # Deployment script for Counter contract
 ├── test/
 │   ├── BasicNftIntegrationTest.t.sol  # Integration tests for Basic NFT
 │   ├── MoodNftTest.t.sol              # Unit tests for Mood NFT
